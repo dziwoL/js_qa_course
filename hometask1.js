@@ -34,3 +34,12 @@ const projectName = 'LIVE';
 const message2 = `${isProductCompany + ' ' + company + ' ' + projectName + ' ' + position}`;
 
 console.log(message2);
+
+//Ex.5
+//Потому что переменная name уже существует глобально. Заменить на уникальное.
+
+const a = "jsfo";
+const b = "r.qa";
+const name = (a + b);
+
+console.log(name);
